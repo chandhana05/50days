@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Event Registration Form
+        </title>
+    </head>
+    <body>
+        <h1>Event Registration Form</h1>
+        <form>
+            <fieldset>
+                <legend>Enter Your Details </legend>
+                Full Name:<br><input type="text" name="username" placeholder="Enter Full name" required><br></br>
+                phone number<br><input type="tel" maxlength="10" pattern="number" name="phone" placeholder=" Enter phone number" required><br><br>
+                User Email<br> <input type="email" name="email" placeholder="Enter email"><br><br>
+                Select Date<br> <input type="date"><br></br>
+                Select Date&Time<br><input type="datetime-local"><br></br>
+                Event Category<br><select><option value="blank"></option> 
+                     <option value="season1"> season1</option>
+                      <option value="season2"> season2</option>
+                       <option value="season3"> season3</option>
+                       <option value="season5"> season5</option>
+                       <option value="season6"> season6</option>
+                       <option value="season7"> season7</option>
+                        </select><br></br>
+                        Mode Of Attendance<br>
+                        <input type="radio" name="attend"> Offline</br>
+                        <input type="radio" name="attend">online<br></br>
+                        Skill Intrested<br><input type="checkbox">AI</br>
+                        <input type="checkbox">Data Science</br>
+                        <input type="checkbox">Web Development</br>
+                        <input type="checkbox">Deep Learning<br><br>
+                        LinkedIn URL<br>
+                        <input type="url" placeholder="https://in.linkedin.com/"><br></br>
+                        upload resume<br>
+                        <input type="file" value="choose file"><br></br>
+                        <label>About You:</label><br>
+                        <textarea name="about you" rows="4" cols="30" placeholder="Write something about you..."></textarea><br></br>
+                        <details>
+                            <p>we Are Hiring Freshers</p>
+                        </details> <br></br>
+                        Uplode process<br></br><progress id="progress" value="60" max="100"></progress><br></br>
+                         <input type="button" value="submit" style="background-color: aqua;">
+                        <input type="button" value="confirm" style="background-color: aqua;">
+          </fieldset>
+        </form>
+    </body>
+</html>

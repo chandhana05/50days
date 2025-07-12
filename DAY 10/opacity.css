@@ -1,0 +1,19 @@
+#alpha{
+    background-color: rgb(126, 166, 58 ,1);
+    opacity: 0.5;
+    height:70px;
+    width:170px;
+}
+#opacity{
+    background-color: rgb(54, 146, 115 ,0.5 );
+    opacity:1;
+    height:70px;
+    width:170px;
+}
+.class{
+    box-shadow: 4px 4px 10px rgb(90, 105, 35);
+    background-color: rgb(187, 236, 62);
+    height:70px;
+    width: 170px;
+    margin: 10px auto;
+}

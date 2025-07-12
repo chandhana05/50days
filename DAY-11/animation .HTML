@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Animations</title>
+        <style>
+            div{
+                transition:2s; /*if we move cursor on it trasition applies*/
+                background-color: cadetblue; 
+                border: solid black;
+                border-radius:10px;
+                height:500px;
+                width:500px;
+                margin:100px auto; 
+                animation-name:animation;
+                animation-duration:2s;
+                /* animation-timing-function: ease-in-out; */
+                /* animation-delay:1s; */
+                animation-iteration-count:infinite; 
+                /* animation-direction:reverse; */
+                /* animation:animation 2s ease-in-out 1s */
+            }
+            div:hover{
+                background-color: rgb(171, 132, 207);
+                border-radius:100%;
+            }
+            h1{
+                margin-left: 80px;
+                margin-top: 185px;
+            }
+        @keyframes animation
+        {
+            from{
+                font-size:10px;
+            }
+            to{
+                font-size:30px;
+            }
+         }
+        </style>
+    </head>
+    <body>
+        <div >
+            <h1>hello everyone</h1>
+        </div>
+    </body>
+</html>

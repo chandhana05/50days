@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1 style="text-align:center;">Event Registration Form</h1>
+        <p style="text-align:center"><b>FRESHERS PARTY</b></p>
+        <fieldset>
+        <h3 style="color:rgb(58, 70, 232);">About this event</h3>
+        <table>
+            <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <th>Event Name</th>
+                <td>Freshers Party</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>August 5th,2k25</td>
+            </tr>
+            <tr>
+                <th>Time</th>
+                <td>10:00AM - 07:00PM</td>
+            </tr>
+            <tr>
+                <th>Venue</th>
+                <td>MallaReddy Engineering College</td>
+            </tr>
+        </table><br><hr>    
+        <h3 style="color:rgb(58, 70, 232);">Participant Information</h3>
+        Person name :<input type="text" placeholder="Full Name" style="margin-left:20px;margin-right:20px" id="name" name="name" required> <br></br> 
+        Select Date :<input type="date" style="margin-left:22px"><br><br>
+        Email :<input type="email" style="margin-left:65px;width:160px;margin-right:20px" placeholder="Enter your email" required><br></br>
+        Phone Number: <input type="tel" maxlength="10" style="margin-left:5px" placeholder ="Enter 10-digit number" id="phone" name="phone" required><br><br>
+        Gender:
+            <input type="radio" name="gender" style="margin-left:20px">Male<br>
+            <input type="radio" name="gender" style="margin-left:70px">Female<br><br>
+        Where did you heard about this event<br>
+            <input type="checkbox" name="event">Facebook
+            <input type="checkbox" name="event" style="margin-left:10px">Instagram
+            <input type="checkbox" name="event" style="margin-left:10px">Youtube
+            <input type="checkbox" name="event" style="margin-left:10px">Twitter
+            <input type="checkbox" name="event" style="margin-left:10px">Other 
+            <input type="text" name="event" style="margin-left:5px;width:100px">    
+        <br><hr>
+        <h3 style="color:rgb(58, 70, 232)">Address Details</h3>
+        Address:
+            <input type="text" placeholder="street address" id="address" name="address"><br></br>
+            <input type="text" placeholder="city" style="margin-left:60px" id="address" name="address"><br></br>
+            <input type="text" placeholder="state" style="margin-left:60px" id="address" name="address"><br><br>
+            <input type="tel" placeholder="pincode" style="margin-left:60px" id="address" name="address"><br></br>
+            Select Country:<br></br>
+            <select style="margin-left:60px;width:170px">
+            <option value="blank">country</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            </select><br><br><hr>
+        <h3 style="color:rgb(58, 70, 232);">Payment Information</h3>
+        Number of Tickets<input type="number" style="margin-left:20px"><br><br>
+        Payment Method
+            <input type="radio" style="margin-left:20px" name="payment">Credit Card
+            <input type="radio" style="margin-left:10px" name="payment">Debit Card
+            <input type="radio" style="margin-left:10px" name="payment">Cash
+            <input type="radio" style="margin-left:10px" name="payment">check
+            <br>
+            <p style="font-size:smaller"><b>I understood that participate in this event may involve some degree of risk.I release WebinarPros LLC from any liability for injury,loss, or damage to personal property</b></p>
+            <input type="radio">Yes, I understand<br><br>
+            Signature <input type="file" style="margin-left:10px;height:20px;margin-right:30px">
+            Date Signed <input type="date" style="margin-left:20px">
+            <br><br><hr>
+            <footer>
+                <p style="text-align:center"><strong>Written by Event Management</strong><br>
+                <p style="text-align:center;font-size: small;"><b>Thankyou for regestering! For inquiries and Updates<br>follow us:<a href="Mail to vanarasasrichandhana@gmail.com">vanarasasrichandhana@gmail.com </a> on our social media accounts</b></p>
+                <div style="text-align: center;">
+                <input type="button" value="submit" style="background: rgb(80, 127, 228);width:100px">
+                </div>
+            </footer>
+        </fieldset>
+    </form>
+</body>
+</html>

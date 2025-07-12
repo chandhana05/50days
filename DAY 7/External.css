@@ -1,0 +1,14 @@
+h1{
+    color:rgb(6, 143, 143);
+    margin-left:150;
+}
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+}
+#paragraph{
+    color: rgb(58, 148, 118);
+}
+.CONTAINER{
+    text-decoration: underline ;
+}

@@ -1,0 +1,71 @@
+/*element selector*/
+h1{
+    color:rgb(6, 143, 143);
+    outline-style: double;
+    outline-offset: 5px;
+    outline-color: aqua;
+    border-style: dotted;
+}
+h4{
+    color:maroon
+}
+/*universal selector*/
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+p{
+    text-decoration: dotted underline;
+}
+/*class selector*/
+.class{
+    text-decoration: underline; 
+    color:brown
+}
+/*id selector*/
+#id{
+    font-style: italic;
+    color:blueviolet
+}
+/*Decendent selector*/
+div {
+    color:darkgreen;
+    text-decoration:line-through brown 1px;
+}
+/*pseudo class-for one classs :
+pseudo element is for elements::*/
+button:hover {
+    color:darkmagenta
+}
+/*color changes when cursor placed on element*/
+h4:hover{
+    color:chartreuse
+}
+/*color chnages when the element is clicked*/
+button:active{
+    color:aqua
+}
+/*color changes when the element is selected*/
+p::selection
+{
+    color:rgb(216, 234, 99)
+}
+/*color changes for first letter of the element*/
+h3::first-letter{
+    color:chartreuse
+}
+h6{
+    height:100px;
+    width:500px;
+}
+/*attribute selector
+syntax: input[Attr="value]{
+property value;
+}*/
+/*used to change single input type*/
+input[type="text"]{
+    background-color: rgb(188, 228, 247);
+    color: rgb(230, 13, 230);
+    padding:10px;
+    border-radius:8px;
+}

@@ -1,0 +1,13 @@
+body{
+    background:url("photo.jpg");
+    background-size:cover;
+}
+p{
+    color:rgb(133, 145, 67);
+    text-align:center;
+    font-size:200px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    font-weight:lighter;
+    text-decoration: underline;
+}  

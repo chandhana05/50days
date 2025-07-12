@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: rgb(236, 150, 88);
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            margin: 20px;
+            border:2px solid;
+            display: inline-block;
+            /*if any block contains any text or name then it moves to next line*/
+        }
+        #static{
+            position: static;
+            background-color: rgb(90, 123, 146);
+            top:200px;
+            left:200px;
+        }
+        #relative{
+            position: relative;
+            background-color: rgb(238, 83, 191);
+            /*moves from actual position*/
+            right: 10px;
+            bottom: 20px;
+        }
+        #absolute{
+            position:absolute;
+            background-color: rgb(135, 203, 17);
+            /*it starts from the starting position acc to given position & it is working on parent element*/
+            left:300px;
+            top:600px;
+        }
+        #fixed{
+            position: fixed;
+            background-color: rgb(155, 21, 179);
+            /*it is fixed acc to margin doesnt move from postion if we scroll*/
+            right: 1000px;
+            top: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>STATIC:</h1>
+    <div></div>
+    <div id="static">static</div>
+    <div></div>
+    <h1>RELATIVE:</h1>
+    <div></div>
+    <div id="relative">relative</div>
+    <div></div>
+    <h1>ABSOLUTE:</h1>
+    <div></div>
+    <div id="absolute">absolute</div>
+    <div></div>
+    <h1>FIXED:</h1>
+    <div></div>
+    <div id="fixed">fixed</div>
+    <div></div>
+</body>
+</html>
